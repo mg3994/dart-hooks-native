@@ -1,0 +1,11 @@
+output:
+  dart:
+    path: lib/src/kotlin_bindings.dart
+    structure: single_file
+
+classes:
+  - 'dev.dart.KotlinExample'
+
+# Source or class path where compiled Kotlin/Java classes reside:
+source_path:
+  - 'kotlin/'
