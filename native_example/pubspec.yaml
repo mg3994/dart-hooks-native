@@ -1,0 +1,19 @@
+name: native_example
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.11.0
+
+# Add regular dependencies here.
+dependencies:
+  code_assets: ^2.1.0
+  hooks: ^2.2.0
+  native_toolchain_c: ^0.19.5
+  # path: ^1.9.0
+
+dev_dependencies:
+  ffigen: ^22.0.0
+  lints: ^6.0.0
+  test: ^1.32.0
